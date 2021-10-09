@@ -1,0 +1,40 @@
+Arguments: 
+  /snap/node/3790/bin/node /usr/local/bin/yarnpkg config get registry
+
+PATH: 
+  /home/anish/Documents/nodeproject/26 febuary React_Js Learn/twitter_clone/node_modules/.bin:/home/anish/Documents/nodeproject/26 febuary React_Js Learn/node_modules/.bin:/home/anish/Documents/nodeproject/node_modules/.bin:/home/anish/Documents/node_modules/.bin:/home/anish/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/anish/.npm/_npx/c67e74de0542c87c/node_modules/.bin:/home/anish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/anish/Android/Sdk/emulator:/home/anish/Android/Sdk/tools:/home/anish/Android/Sdk/tools/bin:/home/anish/Android/Sdk/platform-tools:/home/anish/Android/Sdk/emulator:/home/anish/Android/Sdk/tools:/home/anish/Android/Sdk/tools/bin:/home/anish/Android/Sdk/platform-tools:/home/anish/Android/Sdk/emulator:/home/anish/Android/Sdk/tools:/home/anish/Android/Sdk/tools/bin:/home/anish/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ../../../../../package.json: EACCES: permission denied, write
+      at writeSync (fs.js:711:3)
+      at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+      at writeOrBuffer (internal/streams/writable.js:358:12)
+      at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+      at ConsoleReporter.warn (/usr/local/lib/node_modules/yarn/lib/cli.js:96352:17)
+      at warn (/usr/local/lib/node_modules/yarn/lib/cli.js:51521:23)
+      at module.exports.exports.default (/usr/local/lib/node_modules/yarn/lib/cli.js:37358:7)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:51532:51
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
